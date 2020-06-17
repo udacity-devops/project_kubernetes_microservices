@@ -30,7 +30,8 @@ jobs:
             # Install hadolint
             wget -O /bin/hadolint https://github.com/hadolint/hadolint/releases/download/v1.18.0/hadolint-Linux-x86_64 &&\
                 chmod +x /bin/hadolint
-
+            # Install pylint
+            pip install pylint
       - save_cache:
           paths:
             - ./venv
@@ -42,3 +43,4 @@ jobs:
           command: |
             . venv/bin/activate
             make lint
+
