@@ -32,12 +32,12 @@ We use a pre-trained, `sklearn` model that has been trained to predict housing p
 
 ## Project files
 
-./Dockerfile - Necessary steps to build the docker container
-./Makefile - Commands you can run using `make <command>`
-./app.py - Main application
-./make_prediction.sh - Script that sends a curl request with json payload to port 8000
-./requirements.txt - File containing the project required libraries, installed using pip
-./run_docker.sh - Script that builds, tags and runs image locally using docker on port 8000
-./upload_docker.sh - Uploads the local image to docker hub
-./run_kubernetes.sh - Runs a Docker Hub container using kubernetes. Wait some seconds and run again to forward port 8000.
+* ./Dockerfile - Necessary steps to build the docker container
+* ./Makefile - Commands you can run using `make <command>`
+* ./app.py - Main application
+* ./make_prediction.sh - Script that sends a curl request with json payload to port 8000
+* ./requirements.txt - File containing the project required libraries, installed using pip
+* ./run_docker.sh - Script that builds, tags and runs image locally using docker on port 8000
+* ./upload_docker.sh - Uploads the local image to docker hub
+* ./run_kubernetes.sh - Runs a Docker Hub container using kubernetes. Wait some seconds and run again to forward port 8000.
 
