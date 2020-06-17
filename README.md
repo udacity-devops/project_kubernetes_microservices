@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![edumueller](https://circleci.com/gh/edumueller/project_kubernetes_microservices.svg?style=svg)](https://circleci.com/gh/edumueller/workflows/project_kubernetes_microservices/tree/circleci-project-setup)
 
 ## Project Overview
 
